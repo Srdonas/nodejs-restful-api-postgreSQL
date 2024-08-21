@@ -24,7 +24,7 @@ app.use(cors());
 //     }
 //   }
 // }
-//lol
+
 app.get('/api', (req, res) => {
   res.send('Hola , este es mi RESTful API con Express!');
 });
